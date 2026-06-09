@@ -1,0 +1,43 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# API keys / secrets
+.env
+*.env
+
+# Audio artefacts generated during the workshop
+sounds/cleaned_audio.wav
+sounds/cleaned_audio_wiener.wav
+
+# Biometrics database (student-generated)
+biometrics.db
+
+# Workshop-generated data (recordings, embeddings, features, downloaded dataset)
+librispeech/
+
+# Generated output folders — tracked via .gitkeep so they exist on a fresh clone
+mfcc/*
+!mfcc/.gitkeep
+models/*
+!models/.gitkeep
+stt-tts/*
+!stt-tts/.gitkeep
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Workshop PPT presentation
+*.pptx
+
+# Other files
+*.zip
