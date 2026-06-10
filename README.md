@@ -178,7 +178,3 @@ The capstone. Seven interconnected sections that build a production-style biomet
 | Biometric storage | `sqlite3` |
 | Visualization | `matplotlib` |
 
----
-
-
-*Built for the JPMorgan Chase AI Innovation Week 2026.*
